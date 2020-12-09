@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(180, 180, 180);
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    padding: 10px 50px 50px 50px;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 50px;
+    box-shadow: 10px 15px 5px rgb(180, 180, 180);
+}
+
+#quiz{
+    color: rgb(115, 115, 187);
+    text-align: center;
+}
+
+#question{
+    text-align: center;
+    color: black;
+    font-size: 22px;
+}
+
+.options{
+    margin-top: 20px;
+}
+
+.btn{
+    width: 150px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(182, 179, 179);
+    border: 1px solid gray;
+    border-radius: 50px;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+
+#progress{
+    text-align: right;
+    color: black;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+
+.btn:focus{
+    outline: 0;
+}
