@@ -43,7 +43,14 @@ function showProgress()
 var questions = [
     new Question("Which of the following function of Number object forces a number to display in exponential notation?", ["toExponential()", "toFixed()", "toPrecision()", "toLocaleString()"], "toExponential()"),
     new Question("Which of the following function of Array object removes the last element from an array and returns that element?", ["push()", "pop()", "map()", "join()"], "pop()"),
-    new Question("Which of the following function of Array object sorts the elements of an array?", ["toSource()", "toString()", "unshift()", "sort()"], "sort()")
+    new Question("Which of the following function of Array object sorts the elements of an array?", ["toSource()", "toString()", "unshift()", "sort()"], "sort()"),
+    new Question("Which of the following function of String object returns a number indicating the Unicode value of the character at the given index?", ["charAt()", "charCodeAt()", "concat()", "indexOf()"], "charCodeAt()"),
+    new Question("Which of the following function of String object executes the search for a match between a regular expression and a specified string?", ["concat()", "match()", "replace()", "search()"], "search()"),
+    new Question("Which of the following function of String object creates a string to blink as if it were in a <blink> tag?", ["anchor()", "big()", "blink()", "italics()"], "blink()"),
+    new Question("Which of the following function of String object causes a string to be displayed as struck-out text, as if it were in a <strike> tag?", ["sup()", "small()", "strike()", "sub()"], "strike()"),
+    new Question("Inside which HTML element do we put the JavaScript?", ["script", "head", "meta", "style"], "script"),
+    new Question("Among the following, which one is a ternary operator in JavaScript?", ["#", "::", "&:", "?:"], "?:"),
+    new Question("Which of the following function inserts a value to the start of the array?", ["push()", "sort()", "unshift()", "pop()"], "unshift()")
 ];
 
 var quiz = new Quiz(questions);
